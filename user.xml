@@ -1,0 +1,31 @@
+<templateSet group="user">
+  <template name="elif" value="else if ($condition$)&#10;{&#10;    $END$&#10;}&#10;" shortcut="ENTER" description="Generates else-if statement" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="&quot;CONDITION&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="todo" value="/* todo    - $description$&#10; * @author - $name$&#10; * @date   - $today$&#10; * @time   - $now$&#10;*/&#10;$END$" shortcut="ENTER" description="Insert todo" toReformat="true" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;DESCTIPTION&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="today" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="now" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
