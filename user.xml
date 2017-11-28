@@ -28,4 +28,76 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="redit" value="#region Editor tweakable fields&#10;&#10;$END$    &#10;&#10;#endregion" description="Create region &quot;Editor tweakable fields&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="rprop" value="#region Properties&#10;&#10;$END$&#10;&#10;#endregion" description="Create region &quot;Properties&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="rf" value="#region Private fields&#10;&#10;$END$&#10;&#10;#endregion" description="Create region &quot;Private fields&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="rpriv" value="#region Private methods&#10;&#10;$END$&#10;&#10;#endregion" description="Create region &quot;Private methods&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="rcall" value="#region Unity callbacks&#10;&#10;$END$&#10;&#10;#endregion" description="Create region &quot;Unity callbacks&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="rpub" value="#region Public methods&#10;&#10;$END$&#10;&#10;#endregion" description="Create region &quot;Public methods&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
